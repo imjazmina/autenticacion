@@ -1,0 +1,55 @@
+# Dependencias de Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Archivos de entorno
+.env
+.env.*
+!.env.example
+
+# SQLite databases
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+
+# Archivos de backup o temporales
+*.bak
+*.tmp
+*.temp
+*.swp
+*.swo
+*.log
+*.pid
+*.seed
+
+# Archivos generados por nodemon
+*.nodemon.*
+
+# Directorios de caché y build
+.cache/
+dist/
+build/
+coverage/
+.tmp/
+logs/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos de pruebas
+coverage/
+test-results/
